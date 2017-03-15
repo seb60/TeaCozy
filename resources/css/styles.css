@@ -41,6 +41,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-left: 20px;
 }
 
 /* Mission Section */
@@ -78,6 +80,7 @@ body {
     width: 1000px;
     justify-content: center;
     flex-direction: column;
+    margin: 50px 0px;
 }
 
 #tom-images {
@@ -102,6 +105,24 @@ body {
 
 #locations {
     height: 500px;
+    width: 1200px;
     display: flex;
     background-image: url("../images/img-locations-background.jpg");
+    margin: 20px 0px;
+    color: white;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 10px;
+}
+
+.text-box {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
 }
